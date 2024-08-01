@@ -1,4 +1,4 @@
-Public class Tenis 
+public class Calcado implements Tenis
 {
 
     private String marca;
@@ -9,7 +9,7 @@ Public class Tenis
     
 
 
-    public Tenis(String marca, String tamanho, int notaFiscal, String cores, boolean possuiCardaco)
+    public Calcado(String marca, String tamanho, int notaFiscal, String cores, boolean possuiCardaco)
     {
         this.marca = marca;
         this.tamanho  = tamanho;
