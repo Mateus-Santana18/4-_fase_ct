@@ -3,16 +3,20 @@ Public class Tenis
 
     private String marca;
     private String tamanho;
-    private int nota_fiscal;
+    private int notaFiscal;
+    private String cores;
+    private boolean possuiCardaco;
     
 
 
-    public Tenis(String marca; String tamanho; int nota_fiscal){
+    public Tenis(String marca, String tamanho, int notaFiscal, String cores, boolean possuiCardaco)
+    {
         this.marca = marca;
         this.tamanho  = tamanho;
-        this.nota_fiscal = nota_fiscal;
+        this.notaFiscal = notaFiscal;
+        this.cores = cores;
+        this.possuiCardaco = possuiCardaco;
     }
-
 
     public String getMarca(String marca){
         return marca;
@@ -30,12 +34,28 @@ Public class Tenis
         this.tamanho = tamanho
     }
 
-    public ind getId(int nota_fiscal){
-        return nota_fiscal;
+    public ind getId(int notaFiscal){
+        return notaFiscal;
     }
 
     public void setId(){
-        this.nota_fiscal = nota_fiscal;
+        this.nota_fiscal = notaFiscal;
+    }
+
+    public String getCores(String cores){
+        return cores;
+    }
+    
+    public void setCores(){
+        this.cores = cores;
+    }
+    
+    public boolean getPossuiCardaco(boolean possuiCardaco){
+        return possuiCardaco;
+    }
+    
+    public void possuiCardaco(){
+        this.possuiCardaco = possuiCardaco;
     }
 
 }
