@@ -1,3 +1,12 @@
 .conteudo-container{
     background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-batman{
+    width: 180px;
+    
 }
